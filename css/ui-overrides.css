@@ -2,6 +2,7 @@
 .welcome-tip,
 .brand-catalog,
 .pair-suggestions,
-.quick-row {
+.quick-row,
+.compatible-panel.success {
   display: none !important;
 }
