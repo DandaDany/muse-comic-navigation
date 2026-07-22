@@ -1,0 +1,6 @@
+/* Keep the navigation dialog focused on the adjacent-brand selector. */
+.welcome-tip,
+.brand-catalog,
+.pair-suggestions {
+  display: none !important;
+}
