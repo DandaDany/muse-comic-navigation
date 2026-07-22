@@ -1,6 +1,7 @@
 /* Keep the navigation dialog focused on the adjacent-brand selector. */
 .welcome-tip,
 .brand-catalog,
-.pair-suggestions {
+.pair-suggestions,
+.quick-row {
   display: none !important;
 }
