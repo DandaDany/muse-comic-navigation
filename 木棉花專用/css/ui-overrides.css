@@ -1,0 +1,15 @@
+/* Keep the navigation dialog focused on the adjacent-brand selector. */
+.welcome-tip,
+.brand-catalog,
+.pair-suggestions,
+.quick-row,
+.compatible-panel.success {
+  display: none !important;
+}
+
+.service-launcher{position:fixed;right:18px;bottom:18px;z-index:120;width:54px;height:54px;border:0;border-radius:50%;color:#fff;background:#e87925;box-shadow:0 8px 22px rgba(103,48,13,.28);font-size:24px;cursor:pointer}
+.service-panel{position:fixed;right:18px;bottom:84px;z-index:121;display:none;width:min(380px,calc(100vw - 28px));max-height:min(680px,calc(100vh - 110px));overflow:hidden;border:1px solid #ead8c9;border-radius:18px;background:#fffaf5;box-shadow:0 14px 40px rgba(55,32,18,.24)}
+.service-panel.open{display:flex;flex-direction:column}.service-head{display:flex;align-items:center;gap:10px;padding:13px 15px;color:#fff;background:linear-gradient(135deg,#f29a32,#d96219)}
+.service-head strong{flex:1;font-size:15px}.service-close{width:30px;height:30px;border:0;border-radius:9px;color:#fff;background:rgba(255,255,255,.18);font-size:18px;cursor:pointer}
+.service-messages{display:flex;flex-direction:column;gap:9px;padding:13px;overflow:auto;min-height:150px}.service-msg{max-width:92%;padding:10px 11px;border-radius:13px;font-size:12px;line-height:1.6;white-space:pre-line}.service-msg.bot{align-self:flex-start;color:#4b382c;background:#fff}.service-msg.user{align-self:flex-end;color:#fff;background:#e87925}.service-msg strong{font-weight:900}.service-quick{display:flex;gap:6px;padding:0 13px 9px;overflow:auto}.service-quick button{flex:0 0 auto;padding:7px 9px;border:1px solid #edc9a9;border-radius:999px;color:#87400f;background:#fff7ef;font-size:11px;cursor:pointer}
+.service-form{display:flex;gap:7px;padding:10px 13px 13px;border-top:1px solid #f0dfd2}.service-form input{min-width:0;flex:1;height:39px;padding:0 10px;border:1px solid #dfc9b8;border-radius:10px;font-size:14px}.service-form button{width:52px;border:0;border-radius:10px;color:#fff;background:#e87925;font-weight:800;cursor:pointer}@media(max-width:520px){.service-launcher{right:12px;bottom:12px}.service-panel{right:12px;bottom:76px}}
